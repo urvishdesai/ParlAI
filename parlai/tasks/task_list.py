@@ -753,4 +753,18 @@ task_list = [
             "E.g. `wizard_of_wikipedia:WizardDialogKnowledgeTeacher:random_split`"
         ),
     },
+    {
+        "id": "Change_My_View",
+        "display_name": "Change_My_View",
+        "task": "change_my_view",
+        "tags": ["All","ChitChat"],
+        "description": (
+            "A dataset containing comment trees from 19k discussion posts "
+            "retrieved from reddit changemyview dataset. The dialogues span "
+            "over a variety of topics with users trying to convince each other"
+        ),
+        "notes": (
+            "This task generates next dialog utterance only using a fixed database"
+        ),
+    },
 ]
