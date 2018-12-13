@@ -7,8 +7,6 @@
 # of patent rights can be found in the PATENTS file in the same directory.
 
 from parlai.core.teachers import ParlAIDialogTeacher
-from .build import build
-
 import copy
 import os
 
@@ -16,8 +14,7 @@ import os
 def _path(opt):
     # Build the data if it doesn't exist.
     dt = opt['datatype'].split(':')[0]
-    return os.path.join(opt['datapath'], 'changemyview', dt + '.txt')
-
+    return os.path.join(opt['datapath'], 'ChangeMyView', dt + '_data.txt')
 
 class DefaultTeacher(ParlAIDialogTeacher):
     def __init__(self, opt, shared=None):
