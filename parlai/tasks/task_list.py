@@ -756,7 +756,7 @@ task_list = [
     {
         "id": "Change_My_View",
         "display_name": "Change_My_View",
-        "task": "change_my_view",
+        "task": "changemyview",
         "tags": ["All","ChitChat"],
         "description": (
             "A dataset containing comment trees from 19k discussion posts "
